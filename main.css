@@ -38,8 +38,16 @@ body {
   justify-content: space-around;
   padding-bottom: 115px;
   padding-top: 115px;
+  position: relative;
 }
  
+.orb-canvas {
+position: absolute;
+top: 0;
+height: 100%;
+right: 0;
+}
+
 header {
   z-index: 1;
   position: sticky;
@@ -531,4 +539,7 @@ margin-bottom: 50px;
     width: 280px;
   }
   .about__sun-image {
-    width: 75px;}
+    width: 75px;
+  }
+
+  
